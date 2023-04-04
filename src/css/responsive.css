@@ -1,0 +1,25 @@
+@media(max-width: 768px) {
+  .navbar{
+    flex-direction:column;
+    justify-content:start;
+  }
+  .logo{
+    margin-bottom:100px;
+  }
+  .texto-logo, .componentes{
+    font-size: 40px;
+  }
+  .menu{
+    flex-direction:column;
+    gap: 50px;
+  }
+  .componentes{
+    margin-left: 0;
+  }
+  .botao{
+    margin-left:0;
+    width: 151px;
+    height: 55px;
+    font-size:18px;
+  }
+}

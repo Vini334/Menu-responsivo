@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.navbar{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+.texto-logo{
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: 6px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.componentes{
+  text-decoration: none;
+  color: #000000;
+  margin-left: 30px;
+  font-weight:400;
+  font-size:15px;
+}
+.botao{
+  margin-left: 30px;
+  font-weight:300;
+  font-size:15px;
+  background-color: rgba(91, 194, 65, 1);
+  border-style: none;
+  border-radius: 10px;
+  width: 127px;
+  height: 39px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.componentes:hover{
+  background-color: rgba(91, 194, 65, 1);
+  color: #fff;
+}
